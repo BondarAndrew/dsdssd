@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel-transformer-handlebars": "^2.0.0"
+  },
+  "transformers": {
+    "*.hbs": ["parcel-transformer-handlebars"]
+  }
+}
